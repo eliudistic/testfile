@@ -1,0 +1,172 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2c3e50;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links a, .dropdown button {
+    margin-left: 20px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropzone Styles */
+.dropzone-container {
+    background-color: #ecf0f1;
+    padding: 2rem;
+    text-align: center;
+    border: 2px dashed #3498db;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.dropzone {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropzone i {
+    font-size: 3rem;
+    color: #3498db;
+}
+
+.dropzone p {
+    margin-top: 10px;
+}
+
+/* Button Styles */
+.action-buttons .buttons-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+}
+
+.action-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Membership Section */
+.membership-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.cta-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Info Section */
+.info-section {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.info-section p {
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Floating Support Button */
+.floating-support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.floating-support:hover {
+    background-color: #2980b9;
+}
+
